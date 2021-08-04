@@ -1,0 +1,196 @@
+html {
+  font-size: 100%;
+}
+
+.bodys {
+  color: #333;
+  font-size: 1rem;
+  font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+  margin: 0 auto;
+  width: 70%;
+  /* text-align: center; */
+  min-width: 800px;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  background-color: #333;
+  height: 39px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center
+}
+
+.wrapper li {
+  margin-left: 15px;
+  color: #fff;
+  align-items: center;
+}
+
+.sukima {
+  font-size: 0;
+}
+
+.head-photo {
+  display: inline-block;
+  width: 33.3%;
+  margin: 0;
+  box-sizing: border-box;
+  margin-top: 30px ;
+  padding: 5px;
+}
+
+.head-photo img  {
+  width: 100%;
+  box-sizing: inherit;
+  display: block;
+}
+
+.head-photo p {
+  font-size: 12pt;
+}
+
+.head-photo a {
+  font-size: 12pt;
+}
+
+.read-more {
+  color: #333;
+  transition-duration: 0.3s;
+  text-decoration: none;
+  border-bottom: black thin solid;
+}
+
+.read-more:hover {
+  border-bottom: transparent thin solid;
+  padding-bottom: 5px;
+}
+
+main {
+  width: 60%;
+  float: left;
+}
+
+.category {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.main-1  img {
+  width: 100%;
+  /* height: 348px; */
+}
+
+.sea1 {
+  padding-top: 50px;
+}
+
+aside {
+  width: 30%;
+  float: right;
+  padding-top: 80px;
+}
+
+.camera {
+  margin-left: 25%;
+}
+
+.people {
+  border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    width:  180px;       /* ※縦横を同値に */
+    height: 180px;       /* ※縦横を同値に */
+}
+
+.name {
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.archive {
+  text-align: center;
+}
+
+.archiveyear {
+  list-style: none;
+  border-top: 1px solid #333;
+  padding: 21px;
+}
+.archiveyears {
+  border-bottom:1px solid #333;
+  list-style: none;
+  padding: 21px;
+  border-top: 1px solid #333;
+}
+
+footer {
+  background-color: #f7f7f7;
+  clear:both;
+}
+
+.list_triangle {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.list_triangle > li {
+  position: relative;
+  padding: 0px 0px 0px 1em;
+}
+.list_triangle > li::before {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translateY(-50%);
+  width: 0px;
+  height: 0px;
+  border: 0.3em solid transparent;
+  border-left: 0.4em solid #333;
+  content: "";
+}
+
+.footers1 {
+  display: inline-block;
+  width: 28%;
+  margin: 2%;
+  vertical-align:top;
+}
+
+.footers2  {
+    display: inline-block;
+    width: 28%;
+    margin: 2%;
+    vertical-align:top;
+  }
+
+  .menu {
+    padding-left: 40px;
+  }
+
+  .footers2 li {
+    list-style: none;
+    border-top: solid 1px #333;
+    text-align: left;
+    padding: 13px;
+  }
+
+  .Q {
+    border-bottom: solid 1px #333;
+  }
+
+  .footers3 {
+    display: inline-block;
+    width: 28%;
+    margin: 2%;
+    padding-left: 2.5%;
+    vertical-align:top;
+  }
+
+
